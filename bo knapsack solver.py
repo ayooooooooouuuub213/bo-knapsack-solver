@@ -66,8 +66,10 @@ def main():
         )
 
     st.title("🧠 Bi-objective Knapsack Solver")
+    
+    
     st.caption("Méthode de résolution : ε-Contrainte | Optimisation multi-objectifs")
-
+    st.caption("Developed by HAMDANE Ayoub  & HAMMACHE Ghiles")
     poids_max = st.number_input("Poids maximum du sac", min_value=0.0, step=1.0)
     n = st.number_input("Nombre d'objets", min_value=1, step=1)
     epsilon = st.number_input("Valeur de ε (epsilon)", min_value=0.1, step=0.1)
